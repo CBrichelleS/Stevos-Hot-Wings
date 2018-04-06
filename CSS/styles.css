@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Faster+One');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Tinos');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("/images/hoT WANG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+html,
+body,
+img {
+  margin: 0;
+}
+
+.header {
+  overflow: hidden;
+  background-color: black;
+  padding: 20px 10px;
+  text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px,
+  #ff8000 0 -10px 20px, red 0 -18px 40px;
+}
+
+
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 50px;
+  border-radius: 4px;
+
+}
+
+.header .logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Bangers', cursive;
+}
+
+.header a:hover {
+  background-color: #ffdd61;
+  color: black;
+}
+
+#h22 {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 23px;
+  line-height: 50px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+#h11 {
+  font-size: 60px;
+  color: #ff5900;
+  line-height: 60px;
+  font-style: oblique;
+  font-family: 'Bangers', cursive;
+
+
+}
+
+.header-right {
+  float: right;
+
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+
+  }
+
+  background {
+    background-image: url("/images/family eating.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+.row.text-center {
+  width: 100%;
+  margin: 0;
+}
+
+.hook h2 {
+  margin: 0;
+  width: 100%;
+  font-size: 100px;
+  text-align: center;
+  color: black;
+  font-style: oblique;
+  background-color: white;
+  transform: translateY(100%);
+  font-family: 'Playfair Display SC', serif;
+  border: double;
+}
+
+.btn.btn-primary {
+  font-size: 30px;
+  transform: translateY(450%);
+  border-radius: 2px;
+  border: 0px;
+  color: black;
+  background-color: white;
+  font-style: italic;
+  text-shadow: none;
+  font-family: 'Playfair Display SC', serif;
+}
+
+.btn.btn-primary:hover {
+  color: white;
+  background-color: #040163;
+
+}
+
+.title {
+  text-align: center;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 60px;
+  padding: 0 20px;
+  color: red;
+  text-shadow: 0 0 20px #FF0000;
+  background-color: white;
+  font-weight: bolder;
+  font-style: italic;
+  transform: translateY(20%);
+}
+
+.hours {
+  background-color: white;
+}
+
+td {
+  font-size: 30px;
+  color: black;
+  padding: 15px;
+  text-align: left;
+  transform: translateX(30%);
+  margin: 10px;
+
+}
+
+tr {
+  font-size: 50px;
+  color: black;
+  padding: 15px;
+  text-align: left;
+  transform: translateX(75%);
+  margin: 10px;
+}
+
+th,
+td {
+  padding: 15px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+img {}
+
+.paragraph h1 {
+  background-color: white;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+  border-bottom: solid;
+}
+
+.intro {
+  font-family: 'Tinos', serif;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+.contactt {
+  background-color: white;
+
+}
+
+#c1 {
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Playfair Display SC', serif;
+  text-align: center;
+
+}
+
+#c2 {
+  text-align: center;
+
+}
+
+.contactt ul {
+  font-size: 30px;
+  text-align: center;
+}
+
+.maps {
+  padding: 10px;
+  border: solid 3px;
+}
+
+#map2 {
+  transform: translateX(10%);
+}
